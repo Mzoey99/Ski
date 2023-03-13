@@ -28,7 +28,7 @@ Alors quel itinéraire empruntez vous ?
 Les données d'entrées comprennent les informations suivantes : 
 * $n$ : le nombre de croisements 
 * $m$ : le nombre de pistes 
-* pour chaque piste un en entier $x_i \in [0,n-1]$, un entier $y_i \in [0,n-1]$ et un entier $f_i \in \mathbb{Z}$. Cela signifie que la piste $i$ part du croisement $x_i$, arrive au croisement $y_i$ et vous procure un plaisir $f_i$
+* pour chaque piste un entier $x_i \in [0,n-1]$, un entier $y_i \in [0,n-1]$ et un entier $f_i \in \mathbb{Z}$. Cela signifie que la piste $i$ part du croisement $x_i$, arrive au croisement $y_i$ et vous procure un plaisir $f_i$
 
 ### Sortie attendue
 
@@ -87,4 +87,4 @@ Le fonctionnement et les bonnes pratiques seront rappelés.
 
 La performance de votre code, en terme de temps d'exécution et d'utilisation de la mémoire sera un critère important. 
 
-**Prenez le temps de comparer le temps d'exécution de vos différentes implémentation. Un graphique montrant l'évolution en commentant les différentes améliorations pendant la soutenance orale sera grandement valorisé.**
+**Prenez le temps de comparer le temps d'exécution de vos différentes implémentations. Un graphique montrant l'évolution en commentant les différentes améliorations pendant la soutenance orale sera grandement valorisé.**
