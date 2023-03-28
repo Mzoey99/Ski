@@ -88,3 +88,25 @@ Le fonctionnement et les bonnes pratiques seront rappelés.
 La performance de votre code, en terme de temps d'exécution et d'utilisation de la mémoire sera un critère important. 
 
 **Prenez le temps de comparer le temps d'exécution de vos différentes implémentations. Un graphique montrant l'évolution en commentant les différentes améliorations pendant la soutenance orale sera grandement valorisé.**
+
+## Grandes lignes du projet 
+
+Si vous ne savez pas comment commencer ce projet, voici quelques grandes étapes : 
+* créer un module pour lire les données d'entrée
+* écrire quelques cas à la main et les résoudre à la main 
+* proposer un pseudo code et le découper en petits modules 
+* pour chaque module écrire des tests unitaires 
+* coder les modules un à un, en les testant 
+* créer un module permettant de générer des fichiers d'entrées 
+* créer un module permettant d'appeler votre algorithme avec vos fichiers d'entrées, mesurer le temps d'execution en fonction de la taille d'entrée et générer des graphes 
+
+**Gardez des traces de l'ensemble de vos améliorations pour etre capable de les expliquer clairement lors de la soutenance à l'oral.**
+
+Améliorer la complexité de votre code **dans un nouveau fichier** , optimisez le code et réitérer l'étape de génération de graphes et superposant vos courbes. Pour pouvoir tracer les deux courbes il faut donc que vous ayez les deux fichiers. 
+Pour améliorer la complexité posez-vous les questions suivantes : 
+* Quelle partie de mon code consomme de la RAM ? Est-ce que je libère bien la mémoire dès que je n'en ai plus besoin ? 
+* Quelle partie de mon code s'exécute à de multiples reprises ? 
+* Pour mon algorithme quel est le pire des cas ? Dans ce cas là combien de fois s'éxecute chaque étape ? 
+* Ai-je besoin de toutes les variables que j'ai déclarées ? 
+* Est-ce que j'utilise les structures les plus adaptées à mon problème ? 
+
