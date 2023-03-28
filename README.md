@@ -1,5 +1,7 @@
 # Un jour au ski 
 
+
+Lien vers le tuto git : https://learngitbranching.js.org/?locale=fr_FR
 ## Introduction 
 
 L'objectif de ce projet d'IN104 est de mettre en application une grande partie des concepts que vous avez pu voir au cours de l'année. 
