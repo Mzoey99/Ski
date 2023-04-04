@@ -45,6 +45,7 @@ Exemple d'entrée
 1 2 5
 2 3 -2 
 3 4 -7
+3 1 -3
 4 3 -2
 ```
 Cela correspond au schéma suivant : 
@@ -56,6 +57,25 @@ Sortie attendue :
 SKY IS THE LIMIT 
 ```
 En effet, le cycle 1,2,3 procure un plaisir de 6 points. Puisqu'on peut répéter ce cycle autant de fois qu'on le désire, il n'y a aucune limite au plaisir ! 
+
+Autre exemple 
+```
+6 5 
+0 1 -1
+1 2 2 
+3 4 1 
+4 5 -1
+5 3 -1 
+```
+Cela correspond au schéma suivant : ![](https://markdown.data-ensta.fr/uploads/upload_a9edab37e856e9bfd1a5b593027f1ef0.jpg)
+
+
+Sortie attendue : 
+```
+1
+```
+
+
 
 ## Contraintes et critères d'évaluation
 
