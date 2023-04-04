@@ -1,6 +1,6 @@
 # Un jour au ski 
 
-
+URL du leaderboard : https://in104.lapinou.me/
 Lien vers le tuto git : https://learngitbranching.js.org/?locale=fr_FR
 ## Introduction 
 
