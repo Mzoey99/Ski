@@ -105,6 +105,14 @@ Quelques conseils :
 Afin de s'assurer que votre code fonctionne correctement, il vous est demandé d'implémenter des tests unitaires. 
 Le fonctionnement et les bonnes pratiques seront rappelés. 
 
+Nous vous proposons d'utiliser la librairie Unity : https://github.com/ThrowTheSwitch/Unity
+La documentatation est disponible ici : http://www.throwtheswitch.org/unity
+
+Un exemple vous est donné dans le fichier test.c 
+Pour le compiler, tapez la ligne suivante 
+```gcc -Wall -IUnity/src test.c utils.c Unity/src/unity.c -o test.x```
+Modifiez les fonctions présentes dans le fichier utils.c pour que tous les tests passent et que les fonctions ne présentent plus d'erreurs. 
+
 ### Performances du code 
 
 La performance de votre code, en terme de temps d'exécution et d'utilisation de la mémoire sera un critère important. 
