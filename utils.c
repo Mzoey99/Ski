@@ -17,7 +17,7 @@ int in_liste(int data, int* liste, int n){
 
 int max(int size, int* liste){
     int maxi = liste[0];
-    for (int i = 0; i < size-1; i++)
+    for (int i = 0; i < size; i++)
     {
         if (liste[i]>maxi){
             maxi = liste[i];
