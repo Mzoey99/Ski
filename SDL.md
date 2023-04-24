@@ -11,14 +11,14 @@ Votre programme étant pour l'instant très peu interactif, il faut à présent 
 Vous devez donc utiliser la SDL pour afficher dans une fenêtre l'ensemble des stations et des pistes, en mettant en avant le parcours de plaisir maximal et le plaisir qu'il procure.
 
 Par exemple, avec comme entrée 
-'''
+```
 6 5
 0 1 -1
 1 2 2
 3 4 1
 4 5 -1
 5 3 1
-'''
+```
 
 On peut obtenir la figure suivante : 
 
