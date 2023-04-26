@@ -148,7 +148,12 @@ Ne cherchez pas à transformer le plaisir d'une piste en une distance entre les 
 
 Dans un premier temps, vous devez trouver un moyen de passer d'une matrice d'adjacence à un graphe. 
 
-Dans un second temps, vous pouvez essayer de minimiser le nombre de chevauchement sur votre graphe, c'est-à-dire d'éviter que des aretes ne se croisent, pour gagner en visibilité. 
+Dans un second temps, vous pouvez essayer de minimiser le nombre de chevauchement sur votre graphe, c'est-à-dire d'éviter que des aretes ne se croisent, pour gagner en visibilité. Tous les graphes ne peuvent pas être représentés sans que des arêtes ne se croisent. Si cela est possible, alors on dit que le graphe est **planaire** : https://fr.wikipedia.org/wiki/Graphe_planaire
+
+![](https://markdown.data-ensta.fr/uploads/upload_43013c333c7b65661ae75f90e2ce9dec.png)
+
+
+**ATTENTION** ce sujet étant relativement complexe, venez me voir régulièrement pour m'expliquer ce que vous souhaitez faire avant de vous lancer dans l'implémentation de votre code. 
 
 
 ###  Installation de la SDL 
