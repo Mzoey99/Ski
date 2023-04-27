@@ -36,11 +36,10 @@ Les données d'entrées comprennent les informations suivantes :
 
 Vous afficherez la quantité maximale de plaisir que vous pouvez prendre. 
 Si jamais cette quantité est infinie vous afficherez : "SKY IS THE LIMIT". 
-
 ### Exemples 
 Exemple d'entrée
 ```
-4 6 
+5 6 
 0 1 -10 
 1 2 5
 2 3 -2 
@@ -49,7 +48,8 @@ Exemple d'entrée
 4 3 -2
 ```
 Cela correspond au schéma suivant : 
-![](https://markdown.data-ensta.fr/uploads/upload_c2aa1f2afbaaba4168f0a74c9717c44c.jpg)
+![](https://markdown.data-ensta.fr/uploads/upload_770a0dca308e9786eb85694fb6709723.jpg)
+
 
 
 Sortie attendue : 
@@ -74,8 +74,6 @@ Sortie attendue :
 ```
 1
 ```
-
-
 
 ## Contraintes et critères d'évaluation
 
